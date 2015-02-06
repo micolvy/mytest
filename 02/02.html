@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta content="utf-8" />
+        <meta name="toTop" content="true" />
+		<title>jQuery</title>
+		<script type="text/javascript" src="../jquery-2.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="test02.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('button').click(function(){
+					alert('####');
+				});
+			});
+		</script>
+		<style type="text/css">
+			.GetTime {
+	background: #00c3ff;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 2px dotted #999;
+			}
+			.input {
+				padding-top: 5px;
+				background: #00c3ff;
+			}
+			input {
+				background: #00c3ff;
+			}
+        .input01 {
+	margin: 10px;
+	padding: 10px;
+}
+        </style>
+	</head>
+  <body>
+        <div class="input01">
+            <div class="GetTime">
+                <div dsh="time" wel="欢迎光临，今天是：">正在加载...</div>
+                <div class="input">
+                    <input type="text" dsh="time" value="正在加载...">
+                </div>   
+            </div>
+            <div dsh="smartFloat" style="margin-top: 5px; height: 30px; line-height: 30px; background: #CF9;">往上滚动，看我会怎样。</div>
+        <button>按钮</button>
+        </div>
+	</body>
+</html>
